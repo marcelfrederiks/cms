@@ -1,3 +1,17 @@
+ilmer_cms:
+    resource: "@IlmerCMSBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+ilmer_user:
+    resource: "@IlmerUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+FOSUserBundle:
+    resource: "@IlmerUserBundle/Resources/config/routing/routing.xml"
+    prefix:   /
+
 # Internal routing configuration to handle ESI
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
