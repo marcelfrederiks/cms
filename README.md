@@ -5,5 +5,5 @@ CMS
 1) TODO
 ----------------------------------
 
-info
+Bezig met SonataAdminBundle toevoegen, dependancies staan er op
 

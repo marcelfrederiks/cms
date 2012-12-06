@@ -23,7 +23,15 @@ class AppKernel extends Kernel
 
             // Additional Bundles
             new FOS\UserBundle\FOSUserBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 
+            //Sonata
+            new Sonata\BlockBundle\SonataBlockBundle(),
+            new Sonata\CacheBundle\SonataCacheBundle(),
+            new Sonata\jQueryBundle\SonatajQueryBundle(),
+            new Sonata\IntlBundle\SonataIntlBundle(),
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+            new Sonata\AdminBundle\SonataAdminBundle(),
 
             // Created Bundles
             new Ilmer\UserBundle\IlmerUserBundle(),
