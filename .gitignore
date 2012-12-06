@@ -11,7 +11,7 @@ app/config/parameters.ini
 app/config/parameters.yml
 
 #sessions
-var/sessions
+var/sessions/
 
 #PHPStorm
 .idea/*
